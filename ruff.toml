@@ -1,0 +1,37 @@
+line-length = 88
+indent-width = 4
+
+[lint]
+select = [
+    # Various linting rules from different categories
+    "E", "W",   # pycodestyle
+    "F",        # pyflakes
+    "I",        # isort
+    "N",        # pep8-naming
+    "S",        # flake8-bandit
+    "BLE",      # flake8-blind-except
+    "FBT",      # flake8-boolean-trap
+    "B",        # flake8-bugbear
+    "A",        # flake8-builtins
+    "C4",       # flake8-comprehensions
+    "DTZ",      # flake8-datetimez
+    "EM",       # flake8-errmsg
+    "EXE",      # flake8-executable
+    "FA",       # flake8-future-annotations
+    "LOG",      # flake8-logging
+    "G",        # flake8-logging-format
+    "PT",       # flake8-pytest-style
+    "RET",      # flake8-return
+    "SLF",      # flake8-self
+    "SIM",      # flake8-simplify
+    "SLOT",     # flake8-slots
+    "TCH",      # flake8-type-checking
+    "TRY",      # tryceratops
+    "FURB",     # refurb
+    "RUF"       # ruff-specific rules
+]
+ignore = [
+    "E203",
+    "S101",
+    "C414"
+]
